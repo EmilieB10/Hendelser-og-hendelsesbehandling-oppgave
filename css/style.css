@@ -1,1 +1,48 @@
 /* Add styles here to make the soundboard actually look like a soundboard! */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f1e4e8;
+}
+
+header {
+  background: #c9546c;
+  color: #f1e4e8;
+  height: 1.5em;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 0.2em;
+}
+
+#drumkit {
+  display: flex;
+  width: 25em;
+  height: 25em;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin: 1em auto 0 auto;
+}
+
+button {
+  width: 30%;
+  border: none;
+  border-radius: 0.5em;
+  background: #ebc1c9;
+  font-weight: bold;
+  box-shadow: #c9546c 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+button:focus {
+  background: #c9546c;
+  outline: none;
+  box-shadow: #c9546c 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+footer {
+  margin-top: 1em;
+  background: #c9546c;
+  height: 3em;
+}
